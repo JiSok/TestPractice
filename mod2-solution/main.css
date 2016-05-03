@@ -1,2 +1,96 @@
+/***Base Styles***/
 
-body {}
+* {
+box-sizing: border-box;
+
+}
+
+body {
+margin: 0;
+padding: 0;
+background-color: #9BCDF9;
+
+}
+
+h1 {
+text-align: center;
+font-family: arial;
+font-weight: bold;
+
+
+}
+
+
+p {
+
+background-color: #FCFBC6;
+width: 90%;
+margin-right: auto;
+margin-left: auto;
+padding: 10px;
+font-family: arial;
+border: groove 5px gold;
+}
+
+
+
+/***Simple Responsive Framework***/
+
+
+.row {
+
+width: 100%;
+
+
+
+}
+
+/*Desktop*/
+
+@media (min-width: 992px) {
+.col-lg-4 {
+width: 33.3%;
+float: left;
+
+}
+}
+
+/*Tablet*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.col-md-6 {
+
+width: 50%;
+float: left;
+
+
+}
+
+.col-md-12 {
+
+width: 100%;
+float: left;
+
+
+
+}
+
+/*Mobile*/
+
+}
+
+@media (max-width: 767px) {
+
+.col-sml-12 {
+
+width: 100%;
+float: left;
+
+
+}
+
+
+}
+
+
