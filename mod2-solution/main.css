@@ -31,7 +31,7 @@ margin-right: auto;
 margin-left: auto;
 padding: 10px;
 font-family: arial;
-border: groove 5px gold;
+border: solid 5px gold;
 }
 
 
@@ -41,11 +41,11 @@ h2 {
 
 background: white;
 font-size: 20px;
-width: 65px;
+width: 30%;
 text-align: center;
 position: absolute;
-top: 5%;
-right: 8%;
+top: 2%;
+right: 6%;
 
 
 }
