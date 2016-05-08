@@ -41,7 +41,7 @@ h2 {
 
 background: white;
 font-size: 20px;
-width: 30%;
+width: 60px;
 text-align: center;
 position: absolute;
 top: 2%;
@@ -113,6 +113,14 @@ position: relative;
 
 }
 
+#tokyo {
+
+top: 2%;
+right: 5.5%;
+
+}
+
+
 
 
 /*Mobile*/
@@ -129,6 +137,8 @@ position: relative;
 
 
 }
+
+
 
 
 }
