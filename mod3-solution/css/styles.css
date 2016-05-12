@@ -51,7 +51,7 @@ font-weight: bold;
 .my-content {
 
 
-height: 700px;
+min-height: 700px;
 border: black solid 2px;
 background-color: #2f4f4f;
 margin: 5px;
